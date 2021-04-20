@@ -1,0 +1,49 @@
+.logo  {
+  cursor: pointer;
+  border-radius: 50%;
+  border: white 3px solid;
+  padding: 0.5rem;
+  flex: 10%;
+  text-align: center;
+}
+
+.signature {
+  border-bottom: white 1px solid;
+  flex: 90%;
+  justify-content: center;
+  margin-left: 2rem;
+}
+
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container > button {
+  padding: 0.8rem 2rem;
+  border-radius: 2em;
+  border: white 2px solid;
+  background-color: hsl(288, 76%, 36%);
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.container button:hover {
+  background-color: hsl(288, 76%, 28%);
+}
+
+.base {
+  min-height: 100vh;
+  max-width: 300px;
+  margin: 100px auto 40px;
+}
+
+.base h4 {
+  color: white;
+}
+
