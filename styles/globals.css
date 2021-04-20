@@ -42,15 +42,16 @@ ul li {
   color: white;
   font-family: inherit;
   padding: 10px;
+  margin: 10px;
   cursor: pointer;
+  transition: transform 0.2s ease;
 }
 
-li span:hover {
+span:hover {
+  content: ">"; /* doesn't work */ 
   font-weight: bold;
-  content: '>';
-  position: relative;
-  top: -2px;
-  margin-right: 6px;
-  transform: scale(0.8, 1);
-  display: inline-block;
+  padding: 10px;
+  transform:translate(0, -10%);
+  box-shadow: 0 4px 4px 2px rgba(9, 7, 82, 0.6);
+  border-radius: 10px;
 }

@@ -9,8 +9,8 @@ const Base = () => {
         <>
             <ul> 
                 <li><span>Classic</span></li>
-                <li><span>Classic</span></li>
-                <li><span>Classic</span></li>
+                <li><span>Crust</span></li>
+                <li><span>Cheese</span></li>
             </ul>
         </>
     )
